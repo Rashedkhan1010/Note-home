@@ -2,10 +2,12 @@ function salam() {
     return salam="Hello Rashed";
 }
 var x = salam();
-alert(x);
+document.write(x);
 
 var dog = {name:"hoski", breed:"male"};
 console.log(dog);
 
 var fruits = ["Apple", "Orange", "Strawberry"];
 document.write( fruits[0]);
+
+document.getElementById("power").innerHTML = Math.pow(5,2);
