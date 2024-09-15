@@ -4,3 +4,5 @@ function salam() {
 var x = salam();
 alert(x);
 
+var dog = {name:"hoski", breed:"male"};
+console.log(dog);
