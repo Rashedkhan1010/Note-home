@@ -11,3 +11,5 @@ var fruits = ["Apple", "Orange", "Strawberry"];
 document.write( fruits[0]);
 
 document.getElementById("power").innerHTML = Math.pow(5,2);
+var student = {name:"ahmad", grade:"A"};
+console.log(student);
