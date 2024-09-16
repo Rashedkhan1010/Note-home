@@ -16,4 +16,12 @@ console.log(student);
 
 var colors = ["Black", "Orange", "Red", "Yellow", "White"];
  document.write(colors.length);
- 
+
+function ispositive(number) {
+    if (number > 0) {
+        return 'number is positive';
+    } else {
+        return 'The number is negative';
+    }
+}
+document.write(ispositive(-3));
