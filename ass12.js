@@ -25,3 +25,7 @@ function ispositive(number) {
     }
 }
 document.write(ispositive(-3));
+
+var phone = {Brand: "Glaxy", Model: "S28"}
+console.log(phone.Brand);
+
