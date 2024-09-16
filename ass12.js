@@ -13,3 +13,7 @@ document.write( fruits[0]);
 document.getElementById("power").innerHTML = Math.pow(5,2);
 var student = {name:"ahmad", grade:"A"};
 console.log(student);
+
+var colors = ["Black", "Orange", "Red", "Yellow", "White"];
+ document.write(colors.length);
+ 
