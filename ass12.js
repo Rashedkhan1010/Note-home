@@ -31,6 +31,6 @@ console.log(phone.Brand);
 
 function squarenumber(a) {
     var p = a ** 2;
-    return yield;
+    return p ;
 }
 console.log(squarenumber(4));
