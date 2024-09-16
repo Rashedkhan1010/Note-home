@@ -34,3 +34,11 @@ function squarenumber(a) {
     return p ;
 }
 console.log(squarenumber(4));
+
+var number = [1, 2, 3, 4, 5]
+var a = number[0];
+var b = number[1];
+var c = number[2];
+var d = number[3];
+var e = number[4];
+console.log(number(a+b+c+d+e));
