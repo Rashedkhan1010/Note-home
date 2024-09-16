@@ -29,3 +29,8 @@ document.write(ispositive(-3));
 var phone = {Brand: "Glaxy", Model: "S28"}
 console.log(phone.Brand);
 
+function squarenumber(a) {
+    var p = a ** 2;
+    return yield;
+}
+console.log(squarenumber(4));
