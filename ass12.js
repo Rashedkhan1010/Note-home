@@ -35,10 +35,8 @@ function squarenumber(a) {
 }
 console.log(squarenumber(4));
 
-var number = [1, 2, 3, 4, 5]
-var a = number[0];
-var b = number[1];
-var c = number[2];
-var d = number[3];
-var e = number[4];
-console.log(number(a+b+c+d+e));
+function numbers(a, b, c, d, e) {
+    var o = a+b+c+d+e;
+    return o;
+}
+console.log(numbers(1, 2, 3, 4, 5));
