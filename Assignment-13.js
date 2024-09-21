@@ -37,3 +37,24 @@ function isPalindrome(str) {
     return cleanedstr === reversestr;
 }
 console.log(isPalindrome("A man a plan, a canal: Panama"));
+console.log(isPalindrome("Hello"));
+//Q5
+function max(arr) {
+    if(!Array.isArray(arr)) {
+        return;
+    }
+    if (arr.length === 0) {
+        return 'Array is empty';
+    }
+    var max = arr[0];
+    for (var numb of arr) {
+        if (typeof numb !== 'number') {
+        }
+        return;
+    }
+    if (numb > max) {
+        max = numb
+    }
+    return max;
+}
+console.log(max([3, 5, 10, 32, 34, 75 ]));
