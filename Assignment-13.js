@@ -41,20 +41,35 @@ console.log(isPalindrome("Hello"));
 //Q5
 function max(arr) {
     if(!Array.isArray(arr)) {
-        return;
+        return ' Input must be an array';
     }
     if (arr.length === 0) {
         return 'Array is empty';
     }
     var max = arr[0];
-    for (var numb of arr) {
-        if (typeof numb !== 'number') {
+    for (var num of arr) {
+        if (typeof num !== 'number') {
         }
-        return;
+        return 'Array must contain only numbers';
     }
-    if (numb > max) {
-        max = numb
+    if (num > max) {
+        max = num
     }
     return max;
 }
-console.log(max([3, 5, 10, 32, 34, 75 ]));
+console.log(max([3, 5, 7, 2, 4, 6 ]));
+//Q6
+function factorial(n) {
+    if (typeof n !== 'number' || n < 0) 
+    {
+        return 'Input must be a non-negative integer'
+    }
+    var result = 1;
+    var i = n;
+    while (i > 1) {
+        result *= i;
+        i--;
+    }
+    return result;
+}
+console.log(factorial(5));
