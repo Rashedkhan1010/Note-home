@@ -73,3 +73,16 @@ function factorial(n) {
     return result;
 }
 console.log(factorial(5));
+
+//Q7
+function reverse(str) {
+   if (typeof str !== 'string') {
+    return 'Input must be a string';
+   }
+   var reverse = '';
+   for (var i = str.length - 1; i >= 0; i--) {
+    reverse += str[i];
+   }
+   return reverse;
+}
+console.log(reverse("Hellow, Ahmad"));
