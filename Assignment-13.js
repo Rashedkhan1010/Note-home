@@ -26,4 +26,14 @@ function Vowel(str) {
     }
     return count;
 }
-console.log("HELOOAhmad");
+console.log(Vowel("Hello AHMAD"));
+//Q4
+function isPalindrome(str) {
+    if (typeof str !=='string') {
+        return;
+    }
+    const cleanedstr = str.replace(/[^a-z0-9]/gi,'').toLowerCase();
+    const reversestr = cleanedstr.split('').join('');
+    return cleanedstr === reversestr;
+}
+console.log(isPalindrome("A man a plan, a canal: Panama"));
